@@ -1,2 +1,2 @@
 # Quiz-Chess
-![Texto Alternativo](Imagem.png)
+![Texto Alternativo](Imagem_quiz_chess.png)
