@@ -1,2 +1,2 @@
 # Quiz-Chess
-![Texto Alternativo](Imagem_quiz_chess.png)
+![Texto Alternativo](C:\Users\Meu Computador\Sonho Digital\Nicholas - Portifólio\P1\Imagem_quiz_chess)
