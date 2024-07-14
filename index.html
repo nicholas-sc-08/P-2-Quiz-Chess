@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div_pai_questionario">
+        <h1>Quiz Chess</h1>
+        <div class="dv_pergunta_um">
+             <h2>Pergunta 1:</h2>
+             <p>Qual a peça mais importante no xadrez?</p>
+             <select id="slct_pergunta_um">
+                 <option value="respota_um_pergunta_um">Dama</option>
+                 <option value="respota_dois_pergunta_um">Peão</option>
+                 <option value="respota_tres_pergunta_um">Rei</option>
+             </select>
+        </div>
+     
+        <div class="dv_pergunta_dois">
+            <h2>Pergunta 2:</h2>
+            <p>Qual o objetivo no xadrez?</p>
+            <select id="slct_pergunta_dois">
+                <option value="respota_um_pergunta_dois">Dar xeque-mate no rei inimigo</option>
+                <option value="respota_dois_pergunta_dois">Capturar todas as peças do tabuleiro</option>
+                <option value="respota_tres_pergunta_dois">Promover peão a dama</option>
+            </select>
+        </div>
+        <div class="dv_pergunta_tres">
+            <h2>Pergunta 3:</h2>
+            <p>Qual a abertura e4.e4?</p>
+            <select id="slct_pergunta_tres">
+                <option value="respota_um_pergunta_tres">Abertuta Italiana</option>
+                <option value="respota_dois_pergunta_tres">Gambito da Dama</option>
+                <option value="respota_tres_pergunta_tres">Defesa Siciliana</option>
+            </select>
+        </div>
+     
+        <div>
+           <label>
+             <input type="radio" name="escolha_de_exibicao_do_resultado" id="escolha_de_exibicao_do_resultado_alert"> 
+             Alert
+           </label>
+           <label>
+             <input type="radio" name="escolha_de_exibicao_do_resultado" id="escolha_de_exibicao_do_resultado_input">
+             Input
+           </label>
+           <label>
+             <input type="radio" name="escolha_de_exibicao_do_resultado" id="escolha_de_exibicao_do_resultado_div">
+             Div
+           </label>
+        </div>
+        
+        <div>
+            <label>
+             <input type="checkbox" id="checkbox_exibir_resultado">
+             Quero ver meu resultado
+            </label>
+        </div>
+        
+        <div>
+         <button onclick="call_functions()" id="botao">Enviar</button>
+         <label>
+             <input readonly id="resultado_exibido_em_input">
+            </label>
+        </div>
+         <div id="resultado_exibido_em_div"></div>
+        </div>
+        
+         <script src="script.js"></script>
+    </div>
+</body>
+</html>

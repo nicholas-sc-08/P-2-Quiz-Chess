@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://images7.alphacoders.com/135/1351757.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div_pai_questionario{
+    margin: auto;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #242222;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    color: #f5f5f5;
+}
+p{
+    text-align: center;
+}
+select{
+    width: 210px;
+    text-align: center;
+}
+
+.dv_pergunta_um{
+    justify-content: center;
+    text-align: center;
+}
+.dv_pergunta_dois{
+    justify-content: center;
+    text-align: center;
+}
+.dv_pergunta_tres{
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background-color: #54ae38;
+    color: #f5f5f5;
+    border: 1px solid #54ae38;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#resultado_exibido_em_div{
+    margin-top: 20px;
+}
+#escolha_de_exibicao_do_resultado_alert{
+    accent-color: #54ae38;
+}
+#escolha_de_exibicao_do_resultado_input{
+    accent-color: #54ae38;
+}
+#escolha_de_exibicao_do_resultado_div{
+    accent-color: #54ae38;
+}
+#checkbox_exibir_resultado{
+    accent-color: #54ae38;
+}
